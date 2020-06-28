@@ -1,59 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Soho Theme on Muoz.dev</title>
-    <link>http://example.org/</link>
-    <description>Recent content in Soho Theme on Muoz.dev</description>
+    <title>Soho Theme on Mu/oz</title>
+    <link>https://muoz.dev/</link>
+    <description>Recent content in Soho Theme on Mu/oz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://muoz.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://example.org/portfolio/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>About Me (extended)</title>
+      <link>https://muoz.dev/posts/about-me-extended/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/portfolio/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://muoz.dev/posts/about-me-extended/</guid>
+      <description>Hi folks! My name is Antonio Muñoz. I&amp;rsquo;m from Murcia, Spain.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://muoz.dev/about/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://muoz.dev/about/</guid>
+      <description>Hi folks! My name is Antonio Muñoz. I&amp;rsquo;m from Murcia, Spain.</description>
+    </item>
+    
+    <item>
+      <title>First One</title>
+      <link>https://muoz.dev/posts/first-one/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://muoz.dev/posts/first-one/</guid>
+      <description>Hi everybody! I’m Antonio Mu/oz from Murcia, Spain. I’m working on a video game called NECROGNOMICON.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://muoz.dev/portfolio/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://muoz.dev/portfolio/</guid>
+      <description>Necrognomicon Necrognomicon it&amp;rsquo;s an action-tower defense game, similar to Orcs Must Die, based in the village of Gnomeville where you have to defend critical houses from evil garden gnomes made with Unreal Engine 4.</description>
     </item>
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://example.org/posts/markdown-syntax/</link>
+      <link>https://muoz.dev/examples/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/markdown-syntax/</guid>
+      <guid>https://muoz.dev/examples/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rich Content</title>
-      <link>http://example.org/portfolio/rich-content/</link>
+      <link>https://muoz.dev/examples/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/portfolio/rich-content/</guid>
+      <guid>https://muoz.dev/examples/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>http://example.org/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://example.org/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.</description>
     </item>
     
   </channel>

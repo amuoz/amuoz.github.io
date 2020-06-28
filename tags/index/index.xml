@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>index on Muoz.dev</title>
-    <link>http://example.org/tags/index/</link>
-    <description>Recent content in index on Muoz.dev</description>
+    <title>index on Mu/oz</title>
+    <link>https://muoz.dev/tags/index/</link>
+    <description>Recent content in index on Mu/oz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="http://example.org/tags/index/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://muoz.dev/tags/index/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Portfolio</title>
-      <link>http://example.org/portfolio/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Gnome guts</title>
+      <link>https://muoz.dev/posts/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/portfolio/</guid>
+      <guid>https://muoz.dev/posts/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Posts</title>
-      <link>http://example.org/posts/</link>
+      <title>Portfolio</title>
+      <link>https://muoz.dev/examples/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/</guid>
+      <guid>https://muoz.dev/examples/</guid>
       <description></description>
     </item>
     
