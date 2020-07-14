@@ -15,7 +15,7 @@
 <meta itemprop="description" content="MyNecrognomicon Journey">
 <meta itemprop="datePublished" content="2020-07-13T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-07-13T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1606">
+<meta itemprop="wordCount" content="1605">
 <meta itemprop="image" content="https://muoz.dev/images/costillas-carnivoras-loop.gif"/>
 
 
@@ -118,7 +118,7 @@
       <h1>Antonio Muñoz</h1>
 
       
-      <p class="lead">I can visualize my whole life through names of video games. Experiencing video games evolution has allowed me to develop the ability to make decisions and solve problems in creative ways, and that is reflected in the quality of my work.</p>
+      <p class="lead">I can visualize my whole life through names of video games. Experiencing games evolution has allowed me to develop the ability to solve problems in creative ways, and that is reflected in the quality of my work.</p>
       
     </div>
 
@@ -171,14 +171,14 @@
 <h2 id="what-necrognomicon-is-all-about-">What Necrognomicon is all about?</h2>
 <p>Necrognomicon is an <strong>action-strategy</strong> game, mainly action, where you have to stop hordes of <strong>evil garden gnomes</strong>. For that purpose you have a pretty funny arsenal of weapons and traps. There are two game modes available: <strong>Adventure</strong> mode and <strong>Survival</strong> mode.</p>
 <h3 id="adventure-mode-">Adventure mode</h3>
-<p>Is the original mode in which the game was conceived, similar to <strong>Orcs Must Die</strong>. It consists of several sequential <strong>levels</strong> where you have to defend an emblematic Gnomeville building from <strong>waves</strong> of garden gnomes. Level difficulty grows up slowly at the same time that we introduce different types of <strong>weapons</strong>, <strong>traps</strong> and <strong>enemies</strong>.
+<p>It&rsquo;s the original mode in which the game was conceived, similar to <strong>Orcs Must Die</strong>. It consists of several sequential <strong>levels</strong> where you have to defend an emblematic Gnomeville building from <strong>waves</strong> of garden gnomes. Level difficulty grows up slowly at the same time that we introduce different types of <strong>weapons</strong>, <strong>traps</strong> and <strong>enemies</strong>.
 <img src="/images/adventure-mode.gif" alt="Necrognomicon"></p>
 <h3 id="survival-mode-">Survival mode</h3>
 <p>Survival mode is pretty <strong>simple</strong> but yet <strong>addictive</strong>. Basically you have to survive as much time as possible. The player starts the game with the <strong>mailbox</strong>. Weapons, traps and player spawn points randomly change each try thanks to the <strong>loot table system</strong>. Difficulty raises <strong>by time</strong>.</p>
 <p>Survival mode started as an <strong>extra official</strong> personal experiment. I’m pretty into the <strong>survival games genre</strong> and I thought it would be an attractive idea for events and demos. Finally survival was introduced as an official game mode. I want to thank my lovely <strong>designer Eva María Pérez</strong> for all her effort and work to make it possible.
 <img src="/images/endless-mode.gif" alt="Necrognomicon"></p>
 <h2 id="my-role-at-necro-">My role at Necro</h2>
-<p>I has been mostly responsible for the <strong>game logic</strong> ( <strong>level</strong> system, <strong>difficulty</strong> system, enemy <strong>spawn</strong>, weapon and trap <strong>class hierarchy</strong>, <strong>damage</strong> system, and much more ).</p>
+<p>I&rsquo;ve been mostly responsible for the <strong>game logic</strong> ( <strong>level</strong> system, <strong>difficulty</strong> system, enemy <strong>spawn</strong>, weapon and trap <strong>class hierarchy</strong>, <strong>damage</strong> system, and much more ).</p>
 <p>I&rsquo;ve also worked as <strong>technical designer</strong> helping design department <strong>analyzing how to</strong> implement the needed features.</p>
 <p>I’ve built useful <strong>tools</strong> such as the <strong>grid</strong> component and the level <strong>reset</strong> system. I’ve also worked in several <strong>managers</strong> and <strong>utilities</strong> such as the <strong>cheat</strong> manager, <strong>score</strong> system, <strong>gameplay data</strong> extraction (needed for the design department for balance analysis). I even prototyped the <strong>lawn mower</strong> weapon!</p>
 <p>Lastly I dived into developing <strong>survival mode</strong> and improving <strong>AI behaviours</strong>. Now that we are in context let&rsquo;s talk about those interesting systems and functionalities.</p>
@@ -187,7 +187,7 @@
 <h2 id="grid-system-and-traps-">Grid system and traps</h2>
 <p>As is known, we have looked on to Orcs Must Die (OMD) systems from the beginning of the development. We wanted to use traps to help the player with the waves of enemies. OMD grid was pretty useful to guide players <strong>placing traps</strong>, to <strong>distribute</strong> them uniformly, and at the same time it would prevent a lot of <strong>collateral problems</strong> of free placing traps in the scene.</p>
 <p>At first we had a lot of problems developing the grid system. The first try was to implement an unreal <strong>actor matrix</strong>. ¿The problem? <strong>PERFORMANCE</strong>. Unreal editor literally <strong>exploded</strong>.</p>
-<p>A month later I thought..why not give it a try? The main <strong>goal</strong> was to find the most <strong>efficient</strong> solution for rendering the grid because the design department had a huge town in mind. I had more <strong>questions to resolve</strong> other than that:</p>
+<p>After a month I thought..why not give it a try? The main <strong>goal</strong> was to find the most <strong>efficient</strong> solution for rendering the grid because the design department had a huge town in mind. I had more <strong>questions to resolve</strong> other than that:</p>
 <h3 id="how-to-efficiently-render-the-grid-">How to efficiently render the grid?</h3>
 <p>Draw vertical and horizontal lines simulating the grid, sending <strong>triangles</strong> directly to the <strong>graphic card</strong> thanks to Unreal <strong>Procedural Mesh Component</strong>. This is easy to get with some basic properties such as: NumRow, NumColumns and TileSize. The result was impressive!
 <img src="/images/grid-screenshot.PNG" alt="Necrognomicon"></p>
