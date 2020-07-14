@@ -402,3 +402,7 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+.my-menu {
+  font-size: 150%;
+}

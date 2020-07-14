@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gnome guts on Mu/oz</title>
+    <title>Gnome guts on Antonio Muñoz</title>
     <link>https://muoz.dev/posts/</link>
-    <description>Recent content in Gnome guts on Mu/oz</description>
+    <description>Recent content in Gnome guts on Antonio Muñoz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://muoz.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Necrognomicon Journey</title>
+      <link>https://muoz.dev/posts/necrognomicon-journey/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://muoz.dev/posts/necrognomicon-journey/</guid>
+      <description>Hi everyone! I’ve thought that it would be a good idea to post an article talking about what I’ve developed in Necrognomicon, just in case anyone has curiosity or want to know more about the development process.</description>
+    </item>
     
     <item>
       <title>About Me (extended)</title>

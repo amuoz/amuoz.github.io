@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>index on Mu/oz</title>
+    <title>index on Antonio Muñoz</title>
     <link>https://muoz.dev/tags/index/</link>
-    <description>Recent content in index on Mu/oz</description>
+    <description>Recent content in index on Antonio Muñoz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
@@ -13,7 +13,7 @@
     <item>
       <title>Gnome guts</title>
       <link>https://muoz.dev/posts/</link>
-      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://muoz.dev/posts/</guid>
       <description></description>
