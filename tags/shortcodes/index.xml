@@ -6,11 +6,7 @@
     <description>Recent content in shortcodes on Antonio Muñoz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://muoz.dev/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://muoz.dev/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rich Content</title>
       <link>https://muoz.dev/examples/rich-content/</link>

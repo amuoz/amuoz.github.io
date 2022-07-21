@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.72.0" />
+  <meta name="generator" content="Hugo 0.101.0" />
 
   <title>Necrognomicon Journey &middot; Antonio Muñoz</title>
 
@@ -12,14 +12,9 @@
   
 
 <meta itemprop="name" content="Necrognomicon Journey">
-<meta itemprop="description" content="MyNecrognomicon Journey">
-<meta itemprop="datePublished" content="2020-07-13T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-07-13T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1605">
-<meta itemprop="image" content="https://muoz.dev/images/costillas-carnivoras-loop.gif"/>
-
-
-
+<meta itemprop="description" content="MyNecrognomicon Journey"><meta itemprop="datePublished" content="2020-07-13T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-07-13T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1605"><meta itemprop="image" content="https://muoz.dev/images/costillas-carnivoras-loop.gif"/>
 <meta itemprop="keywords" content="" />
 
 <meta name="twitter:card" content="summary_large_image"/>
@@ -32,10 +27,10 @@
 <meta property="og:title" content="Necrognomicon Journey" />
 <meta property="og:description" content="MyNecrognomicon Journey" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://muoz.dev/posts/necrognomicon-journey/" />
-<meta property="og:image" content="https://muoz.dev/images/costillas-carnivoras-loop.gif"/>
+<meta property="og:url" content="https://muoz.dev/posts/necrognomicon-journey/" /><meta property="og:image" content="https://muoz.dev/images/costillas-carnivoras-loop.gif"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-07-13T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-07-13T00:00:00+00:00" />
+
 
 
 
@@ -118,7 +113,7 @@
       <h1>Antonio Muñoz</h1>
 
       
-      <p class="lead">I can visualize my whole life through names of video games. Experiencing games evolution has allowed me to develop the ability to solve problems in creative ways, and that is reflected in the quality of my work.</p>
+      <p class="lead">I can visualize my whole life through names of video games. Willing to put in the time and learn from others. Passionate gamer.</p>
       
     </div>
 
@@ -168,50 +163,50 @@
 
   <p>Hi everyone! I’ve thought that it would be a good idea to post an article talking about what I’ve developed in <strong>Necrognomicon</strong>, just in case anyone has curiosity or want to know more about the development process.</p>
 <p>The idea is not to dive into details, but instead talk about the <strong>mental processes</strong> behind the <strong>solutions</strong> adopted and the <strong>problems</strong> that have arised. It also could help other game developers so, if you have any <strong>questions</strong> I will be really glad to help!</p>
-<h2 id="what-necrognomicon-is-all-about-">What Necrognomicon is all about?</h2>
+<h2 id="what-necrognomicon-is-all-about">What Necrognomicon is all about?</h2>
 <p>Necrognomicon is an <strong>action-strategy</strong> game, mainly action, where you have to stop hordes of <strong>evil garden gnomes</strong>. For that purpose you have a pretty funny arsenal of weapons and traps. There are two game modes available: <strong>Adventure</strong> mode and <strong>Survival</strong> mode.</p>
-<h3 id="adventure-mode-">Adventure mode</h3>
+<h3 id="adventure-mode">Adventure mode</h3>
 <p>It&rsquo;s the original mode in which the game was conceived, similar to <strong>Orcs Must Die</strong>. It consists of several sequential <strong>levels</strong> where you have to defend an emblematic Gnomeville building from <strong>waves</strong> of garden gnomes. Level difficulty grows up slowly at the same time that we introduce different types of <strong>weapons</strong>, <strong>traps</strong> and <strong>enemies</strong>.
 <img src="/images/adventure-mode.gif" alt="Necrognomicon"></p>
-<h3 id="survival-mode-">Survival mode</h3>
+<h3 id="survival-mode">Survival mode</h3>
 <p>Survival mode is pretty <strong>simple</strong> but yet <strong>addictive</strong>. Basically you have to survive as much time as possible. The player starts the game with the <strong>mailbox</strong>. Weapons, traps and player spawn points randomly change each try thanks to the <strong>loot table system</strong>. Difficulty raises <strong>by time</strong>.</p>
 <p>Survival mode started as an <strong>extra official</strong> personal experiment. I’m pretty into the <strong>survival games genre</strong> and I thought it would be an attractive idea for events and demos. Finally survival was introduced as an official game mode. I want to thank my lovely <strong>designer Eva María Pérez</strong> for all her effort and work to make it possible.
 <img src="/images/endless-mode.gif" alt="Necrognomicon"></p>
-<h2 id="my-role-at-necro-">My role at Necro</h2>
+<h2 id="my-role-at-necro">My role at Necro</h2>
 <p>I&rsquo;ve been mostly responsible for the <strong>game logic</strong> ( <strong>level</strong> system, <strong>difficulty</strong> system, enemy <strong>spawn</strong>, weapon and trap <strong>class hierarchy</strong>, <strong>damage</strong> system, and much more ).</p>
 <p>I&rsquo;ve also worked as <strong>technical designer</strong> helping design department <strong>analyzing how to</strong> implement the needed features.</p>
 <p>I’ve built useful <strong>tools</strong> such as the <strong>grid</strong> component and the level <strong>reset</strong> system. I’ve also worked in several <strong>managers</strong> and <strong>utilities</strong> such as the <strong>cheat</strong> manager, <strong>score</strong> system, <strong>gameplay data</strong> extraction (needed for the design department for balance analysis). I even prototyped the <strong>lawn mower</strong> weapon!</p>
 <p>Lastly I dived into developing <strong>survival mode</strong> and improving <strong>AI behaviours</strong>. Now that we are in context let&rsquo;s talk about those interesting systems and functionalities.</p>
 <p>Wow!! I am impressed with the amount of things I have learned in this project! Hi <strong>it&rsquo;s me</strong> :D
 <img src="/images/yo-gnome.PNG" alt="Necrognomicon"></p>
-<h2 id="grid-system-and-traps-">Grid system and traps</h2>
+<h2 id="grid-system-and-traps">Grid system and traps</h2>
 <p>As is known, we have looked on to Orcs Must Die (OMD) systems from the beginning of the development. We wanted to use traps to help the player with the waves of enemies. OMD grid was pretty useful to guide players <strong>placing traps</strong>, to <strong>distribute</strong> them uniformly, and at the same time it would prevent a lot of <strong>collateral problems</strong> of free placing traps in the scene.</p>
 <p>At first we had a lot of problems developing the grid system. The first try was to implement an unreal <strong>actor matrix</strong>. ¿The problem? <strong>PERFORMANCE</strong>. Unreal editor literally <strong>exploded</strong>.</p>
 <p>After a month I thought..why not give it a try? The main <strong>goal</strong> was to find the most <strong>efficient</strong> solution for rendering the grid because the design department had a huge town in mind. I had more <strong>questions to resolve</strong> other than that:</p>
-<h3 id="how-to-efficiently-render-the-grid-">How to efficiently render the grid?</h3>
+<h3 id="how-to-efficiently-render-the-grid">How to efficiently render the grid?</h3>
 <p>Draw vertical and horizontal lines simulating the grid, sending <strong>triangles</strong> directly to the <strong>graphic card</strong> thanks to Unreal <strong>Procedural Mesh Component</strong>. This is easy to get with some basic properties such as: NumRow, NumColumns and TileSize. The result was impressive!
 <img src="/images/grid-screenshot.PNG" alt="Necrognomicon"></p>
 <p>I want to thank <strong>Reid’s Channel</strong> for his amazing videos about rendering the grid. His content is pretty good. You should check it out!
 <a href="https://www.youtube.com/user/Blindopoly">https://www.youtube.com/user/Blindopoly</a></p>
-<h3 id="how-to-select-a-tile-">How to select a tile?</h3>
+<h3 id="how-to-select-a-tile">How to select a tile?</h3>
 <p>Doing <strong>Line Traces</strong> to see the row and column where we are going to place the <strong>equipped trap</strong>.
 Thanks to TileSize property and the number of rows and columns we can transform <strong>world positions to grid</strong> positions.
 <img src="/images/world-location-to-tile.PNG" alt="Necrognomicon"></p>
-<h3 id="how-to-communicate-c-traps-with-the-grid-bp-">How to communicate C++ traps with the Grid BP?</h3>
+<h3 id="how-to-communicate-c-traps-with-the-grid-bp">How to communicate C++ traps with the Grid BP?</h3>
 <p>Solution was to create a <strong>facade C++</strong> grid class defining <strong>BlueprintImplementableEvent</strong> methods, but in reality all <strong>logic</strong> was implemented inside the grid <strong>blueprint</strong>. Here you can see some of the called methods.
 <img src="/images/grid-blueprint-implementable.PNG" alt="Necrognomicon"></p>
-<h3 id="how-to-configure-the-grid-if-gnomeville-is-notrectangular-">How to configure the grid if Gnomeville is not..rectangular?</h3>
+<h3 id="how-to-configure-the-grid-if-gnomeville-is-notrectangular">How to configure the grid if Gnomeville is not..rectangular?</h3>
 <p>Instead of using a huge single grid I will use <strong>multiple smaller grids</strong> with different <strong>shapes</strong> and <strong>sizes</strong>. I had to make some changes to the current system, after doing the line trace I had to store the <strong>grid reference</strong> along with the row and column. All the operations from there were applied to that stored grid.
 <img src="/images/trap-tile-information.PNG" alt="Necrognomicon">
 Here you can see an example of Gnomeville with all grids configured. Every billboard you see is a different grid object instance.
 <img src="/images/multiple-grids.PNG" alt="Necrognomicon"></p>
-<h3 id="final-result-">Final result</h3>
+<h3 id="final-result">Final result</h3>
 <p>It doesn’t seem like much, but was <strong>quite an adventure</strong> to implement.
 <img src="/images/trap-placement.gif" alt="Necrognomicon"></p>
-<h2 id="ai-behaviours-">AI Behaviours</h2>
+<h2 id="ai-behaviours">AI Behaviours</h2>
 <p>Adventure mode enemies don&rsquo;t have much <strong>movement freedom</strong>, they never get out of the <strong>navmesh</strong>. One collateral effect introducing survival mode was that gnomes don’t follow a <strong>predefined path</strong> anymore. There are new situations where the player jumps over some kind of obstacle, zones where the navmesh is incomplete, and the <strong>enemies get stuck</strong> without knowing what to do.</p>
 <p>In <strong>adventure</strong> mode this <strong>problem</strong> was only evident when placing barrel traps forming a <strong>barricade</strong>, gnomes get stuck. We had to find a solution because the player loses all <strong>inmersion</strong> when that happens. Solution: <strong>Jumping gnomes</strong>.</p>
-<h3 id="avoiding-obstacles-">Avoiding obstacles</h3>
+<h3 id="avoiding-obstacles">Avoiding obstacles</h3>
 <p><strong>Behaviour tree</strong> was updated giving our enemies the <strong>ability to jump</strong> over certain obstacles and chasing the player even outside the navmesh. Behaviour is simple but very effective:</p>
 <ul>
 <li><strong>Am I Stuck?</strong></li>
@@ -222,27 +217,27 @@ Here you can see an example of Gnomeville with all grids configured. Every billb
 <p><img src="/images/jumpjump.gif" alt="Necrognomicon">
 As you can see it&rsquo;s a success! It even gives the <strong>impression</strong> that gnomes are much <strong>more intelligent</strong> than before.</p>
 <p>This behaviour that was originally conceived for avoiding little obstacles has been extended to be a more <strong>versatile mobility tool</strong> in the arsenal of gnome behaviours. Below you can see some more real examples. As said before, this behaviour has been specially <strong>useful in survival</strong> game mode.</p>
-<h4 id="out-of-the-navmesh-">Out of the navmesh</h4>
+<h4 id="out-of-the-navmesh">Out of the navmesh</h4>
 <p><img src="/images/out-of-the-navmesh.gif" alt="Necrognomicon"></p>
-<h4 id="roof-jumping-">Roof jumping</h4>
+<h4 id="roof-jumping">Roof jumping</h4>
 <p><img src="/images/jump-from-house.gif" alt="Necrognomicon"></p>
-<h4 id="fountain-jumping-">Fountain jumping</h4>
+<h4 id="fountain-jumping">Fountain jumping</h4>
 <p><img src="/images/jumpgnomes-fountain.gif" alt="Necrognomicon"></p>
-<h4 id="wanderers-">Wanderers</h4>
+<h4 id="wanderers">Wanderers</h4>
 <p>We had the feeling that <strong>GnomeVille town</strong> was too <strong>empty</strong>. Until you didn’t launch the horde you didn’t see any gnomes. Didn’t like that. The AI wanderer was created. This type of Ai <strong>wanders around</strong> the town until it <strong>perceives</strong> the player, once it does it <strong>alerts</strong> nearby radius gnomes to attack together.
 <img src="/images/wanderers.gif" alt="Necrognomicon"></p>
-<h3 id="active-area-system-">Active Area System</h3>
+<h3 id="active-area-system">Active Area System</h3>
 <p>A big part of survival mode was inspired by <strong>L4D2</strong>, I’m a fan. In concrete the ai systems of l4d writing by mike booth. Here you can check it out. It&rsquo;s amazing!
 <a href="https://steamcdn-a.akamaihd.net/apps/valve/2009/ai_systems_of_l4d_mike_booth.pdf">https://steamcdn-a.akamaihd.net/apps/valve/2009/ai_systems_of_l4d_mike_booth.pdf</a>
 <a href="https://www.gamasutra.com/view/feature/134606/why_left_4_dead_works.php">https://www.gamasutra.com/view/feature/134606/why_left_4_dead_works.php</a></p>
 <p>We have implemented a basic <strong>Active Area System</strong> (AAS) that allows us to <strong>recycle</strong> enemies in different areas without the player ever knowing. Each area has a <strong>máximum N</strong> size of gnomes it will try to spawn, in case we can <strong>afford</strong> more enemies in the scene.</p>
-<h2 id="difficulty-system-">Difficulty System</h2>
+<h2 id="difficulty-system">Difficulty System</h2>
 <p>We can talk about <strong>two</strong> difficulty systems depending on the selected game mode. A <strong>static</strong> difficulty system is implemented in adventure, while a <strong>dynamic</strong> difficulty system was made for survival.</p>
-<h3 id="static-difficulty-system-">Static difficulty system</h3>
+<h3 id="static-difficulty-system">Static difficulty system</h3>
 <p><strong>Adventure</strong> mode difficulty is done solely and exclusively <strong>manually by the design department</strong>. They configure gnomes <strong>quantity</strong> spawn, which <strong>types</strong>, how <strong>often</strong>, and so. Below you can see an example horde array configuration.
 <img src="/images/spawner-adventure.png" alt="Necrognomicon"></p>
 <p>In fact, a little difficult system is in the <strong>background</strong>. When a player kills every single gnome of a wave before the next wave is activated it increments the difficulty factor by an amount. The gnome&rsquo;s quantity in the next wave is multiplied by that <strong>difficulty factor</strong> which makes it possible to spawn some <strong>more gnomes</strong>.</p>
-<h3 id="dynamic-difficulty-system-">Dynamic difficulty system</h3>
+<h3 id="dynamic-difficulty-system">Dynamic difficulty system</h3>
 <p>For survival mode we needed a difficulty system that <strong>scaled harshly</strong> with time, to make play sessions quick and snappy. We made it so that the longer the player survives, the <strong>more enemies</strong> spawn, and the <strong>more powerful</strong> they are.</p>
 <p>I should write a full entry about dynamic difficulty system implementation, but for now I will try to give you an idea of how it works.</p>
 <p>Applying a <strong>sigmoid function</strong> over time has provided us with fast but yet controlled difficulty factor increment. We generate a <strong>difficulty value</strong> by time, then we “spent” that value spawning gnomes of different types. Each type of gnome has its own <strong>cost</strong> associated. Also each type of gnome has an appearance <strong>percentage</strong> value. As you can see below in the graphs, the longer the player survives not only we spawn more gnomes but also <strong>fewer basic</strong> gnomes.
@@ -250,13 +245,13 @@ As you can see it&rsquo;s a success! It even gives the <strong>impression</stron
 <p>Difficulty value also modifies gnomes <strong>movement speed</strong>, which grows up until the maximum of double the initial value.</p>
 <p>Difficulty variable increments by time by a certain amount, then the <strong>sigmoid function</strong> is applied to <strong>filter</strong> the current difficulty value.
 <img src="/images/sigmoid-difficulty.PNG" alt="Necrognomicon"></p>
-<h2 id="post-process-">Post process</h2>
+<h2 id="post-process">Post process</h2>
 <p>I have special feelings for the post processes since it was the <strong>first functionality</strong> that I developed in Necrognomicon. It has been mainly used to <strong>highlight</strong> traps and weapons. It also helps the player by highlighting gnomes <strong>behind</strong> the <strong>buildings</strong> when they are <strong>attacking</strong> (this behaviour is integrated in the enemy <strong>behaviour tree</strong>)</p>
-<h3 id="outline-in-camera-occlusion-">Outline, in camera, occlusion</h3>
+<h3 id="outline-in-camera-occlusion">Outline, in camera, occlusion</h3>
 <p><img src="/images/post-process-gym.gif" alt="Necrognomicon"></p>
-<h3 id="house-enemy-occlusion-">House enemy occlusion</h3>
+<h3 id="house-enemy-occlusion">House enemy occlusion</h3>
 <p><img src="/images/house-oclussion.PNG" alt="Necrognomicon"></p>
-<h2 id="thanks-team-">Thanks Team</h2>
+<h2 id="thanks-team">Thanks Team</h2>
 <p>Last but not least, I want to thank the entire Necrognomicon team for the enormous effort and great teamwork throughout the year. I have learned a lot from all of you and I hope we continue to work together in the future &lt;3</p>
 <p><img src="/images/necro-logo-rock.PNG" alt="Necrognomicon"></p>
 <p>I hope you enjoyed the reading! :D</p>
@@ -268,7 +263,7 @@ As you can see it&rsquo;s a success! It even gives the <strong>impression</stron
 
   <footer>
   <div>
-    &copy;  2020
+    &copy;  2022
 
     
 

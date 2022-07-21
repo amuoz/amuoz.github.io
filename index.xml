@@ -6,11 +6,7 @@
     <description>Recent content in Soho Theme on Antonio Muñoz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://muoz.dev/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://muoz.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Necrognomicon Journey</title>
       <link>https://muoz.dev/posts/necrognomicon-journey/</link>
@@ -53,7 +49,8 @@
       <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://muoz.dev/portfolio/</guid>
-      <description>HOME Hit N’ Rush HOME Hit N’ Rush is a team-based online multiplayer third-person shooter taking place in a distant future where humanity is at the brink of extinction.</description>
+      <description>Unannounced UE5 project at Tequila Works https://tequilaworks.com/
+My contribution: Multiplayer gameplay engineer specialized in Artificial Intelligence.</description>
     </item>
     
     <item>
